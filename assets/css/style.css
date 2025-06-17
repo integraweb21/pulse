@@ -1,0 +1,133 @@
+/***** Variables *****/
+:root{
+	--pink: #a7289e;
+	--pinkhover: #b953b1;
+	--pinkborder: #ca7ec5;
+	--green: #02b6a9;
+	--black: #242424;
+	--white: #fff;
+}
+
+/****** Base *****/
+
+:hover{
+	transition: all 0.3s ease-in-out 0s;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+body{
+	font-family: "Sora", sans-serif;
+	color: var(--black);
+}
+
+h1{
+	font-size: 72px;
+	font-weight: 700;
+}
+
+h1 span{
+	color: var(--pink);
+}
+
+h2{
+	font-size: 48;
+	font-weight: 700;
+}
+
+/* Boutons */
+
+.btn{
+	font-size: 14px;
+	padding: 12px 18px;
+    border-radius: 12px;
+	font-weight: 600;
+}
+
+.btn-pink{
+	background-color: var(--pink);
+	color: var(--white);
+	border: 1px solid var(--pink);
+}
+
+.btn-pink:hover{
+	color: var(--white);
+	background-color: var(--pinkhover);
+	border: 1px solid var(--pinkborder);
+}
+
+.btn-border-black{
+	color: var(--black);
+	border: 1px solid var(--black);
+}
+
+.btn-border-black:hover{
+	color: var(--pink);
+	border: 1px solid var(--pink);
+}
+
+.btn-border-black:hover path{
+	fill: var(--pink);
+}
+
+/****** Navigation *****/
+
+header .container{
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a{
+	color: var(--black) !important;
+	font-weight: 600 !important;
+}
+
+nav a:hover{
+	color: var(--pink) !important;
+}
+
+nav ul{
+	display: flex;
+	gap: 30px;
+}
+
+.nav-btn ul{
+	display: flex;
+	gap: 10px;
+}
+
+.nav-btn img, .nav-btn svg{
+	margin-right: 5px;
+}
+
+/***** Bannner *****/
+
+.banner:before{
+	content: "";
+	position: absolute;
+	top: 30px;
+	display: block;
+	background-image: url('img/pictos/stars1.svg');
+	width: 132px;
+	height: 187px;
+}
+
+.banner{
+	position: relative;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background: linear-gradient(136.35deg, #F6EDF5 2.88%, #FFFFFF 25.51%, #FFFFFF 106.22%);
+}
+
+.banner .subtitle{
+	font-family: "Shantell Sans", cursive;
+	font-size: 28px;
+	font-weight: 600;
+}
