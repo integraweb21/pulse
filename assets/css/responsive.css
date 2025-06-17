@@ -29,6 +29,14 @@
 
 }
 
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
+    .nav-btn span{
+        display: none;
+    }
+
+}
+
 @media (min-width: 1024px) {
 
     /* Navigation */
@@ -69,6 +77,23 @@
         font-size: 48px;
     }
 
+    /* Navigation */
+
+    #offcanvasNavbar{
+        display: block;
+        padding: 30px;
+        border: none;
+    }
+
+    .offcanvas-header{
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .navbar-mobile ul{
+        flex-direction: column;
+    }
+
     .navbar, .nav-btn{
         display: none;
     }
@@ -81,22 +106,8 @@
         font-size: 38px;
     }
 
-    /* Navigation */
-
     #offcanvasNavbar{
-        display: block;
-        padding: 30px;
         width: 100%;
-        border: none;
-    }
-
-    .offcanvas-header{
-        padding: 0;
-        margin-bottom: 50px;
-    }
-
-    .navbar-mobile ul{
-        flex-direction: column;
     }
 
 }
