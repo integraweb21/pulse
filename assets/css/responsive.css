@@ -1,0 +1,102 @@
+@media (min-width: 1400px) {
+    /* Banner */
+
+    .banner .subtitle:after{
+        top: 125px;
+        right: 165px;
+        bottom: -150px;
+    }
+
+    .price{
+        right: 55px;
+        bottom: -150px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    /* Banner */
+
+    .banner .subtitle:after{
+        right: 75px;
+        top: 125px;
+    }
+
+    .price{
+        right: -35px;
+        bottom: -150px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    /* Navigation */
+
+    .navbar-toggler{
+        display: none;
+    }
+
+    /* Banner */
+
+    .box{
+        width: 512px;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .banner .subtitle{
+        padding-bottom: 3rem;
+    }
+    
+    .banner .subtitle:after{
+        display: none;
+    }
+
+    .price{
+        position: inherit;
+        transform: inherit;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    h1{
+        font-size: 48px;
+    }
+
+    .navbar, .nav-btn{
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    h1{
+        font-size: 38px;
+    }
+
+    /* Navigation */
+
+    #offcanvasNavbar{
+        display: block;
+        padding: 30px;
+        width: 100%;
+        border: none;
+    }
+
+    .offcanvas-header{
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .navbar-mobile ul{
+        flex-direction: column;
+    }
+
+}

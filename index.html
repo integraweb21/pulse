@@ -56,21 +56,62 @@
                     </li>
                 </ul>
             </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <svg width="32" height="28" viewBox="0 0 32 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 2H30" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M8 14H24" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M2 26H30" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"/>
+                </svg>                                    
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="side-nav menu-mobile">
+                    <div class="offcanvas-header">
+                        <img src="assets/css/img/logo-pulse.svg" alt="Logo Pulse">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <nav class="navbar-mobile">
+                        <ul class="m-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Avantages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tarifs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Simulateur de salaire</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Actualités</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
     </header>
-    <section class="banner">
+    <section class="banner position-relative">
         <div class="container text-center">
-            <div class="text pb-5">
+            <div class="text pb-5 position-relative">
                 <h1>
                     <span>Libre</span> comme un indépendant, <span>serein</span> comme un salarié
                 </h1>
                 <p class="subtitle">Malin, performant et accessible !</p>
+                <p class="price">
+                    <span>79€ ht/mois</span>,<br>SANS engagement
+                </p>
             </div>
-            <div class="nav-btn">
+            <div class="nav-btn pb-5">
                 <ul class="m-0 justify-content-center">
                     <li><a href="#" class="btn btn-border-black">Prendre rendez-vous</a></li>
                     <li><a href="#" class="btn btn-pink">Se propulser</a></li>
                 </ul>
+            </div>
+            <div class="box">
+                <p class="mb-0">Intitulé de l’évènement ici <span>24 mai à 17h30</span></p>
+                <a href="#" class="link-pink">S'inscrire</a>
             </div>
         </div>
     </section>
