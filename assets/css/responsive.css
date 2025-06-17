@@ -52,6 +52,18 @@
         margin: 0 auto;
     }
 
+    .banner .container:after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        background-repeat: no-repeat;
+        background-image: url('img/planet.svg');
+        width: 567px;
+        height: 235px;
+        transform: translateX(-283px);
+        z-index: 0;
+    }
+
 }
 
 @media (max-width: 1200px) {
@@ -95,6 +107,12 @@
     }
 
     .navbar, .nav-btn{
+        display: none;
+    }
+
+    /* Banner */
+    
+    .pictos{
         display: none;
     }
 
