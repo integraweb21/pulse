@@ -8,6 +8,7 @@
 	--black: #242424;
 	--grey: #e6e6e6;
 	--grey2: #f5f5f5;
+	--grey3: #666666;
 	--white: #fff;
 }
 
@@ -58,6 +59,16 @@ h3{
 	font-size: 20px;
 }
 
+.grey{
+	color: var(--grey3);
+	font-size: 14px;
+}
+
+.grey.f-20{
+	font-size: 20px;
+	font-weight: 700;
+}
+
 .desert{
 	background-color: var(--desert);
 }
@@ -70,6 +81,7 @@ h3{
 
 .card ul li{
 	display: flex;
+	align-items: center;
 	gap: 10px;
 	margin-bottom: 12px;
 }
@@ -449,12 +461,45 @@ nav ul{
 	font-weight: 700;
 }
 
-.missions .card ul li::before{
+.missions .card ul.check-pink li::before, .missions .card ul.check-green li::before{
 	content: "";
 	display: block;
-	background-image: url('img/pictos/check-circle.svg');
 	width: 26px;
 	height: 26px;
+}
+
+.missions .card ul.check-pink li::before{
+	background-image: url('img/pictos/check-circle-pink.svg');
+}
+
+.missions .card ul.check-green li::before{
+	display: block;
+	background-image: url('img/pictos/check-circle-green.svg');
+}
+
+.missions a{
+	font-size: 18px;
+}
+
+#card-list li{
+	font-weight: 400;
+}
+
+.missions .subtitle{
+	font-weight: 700;
+}
+
+.missions .pink, .missions .green{
+	font-weight: 700 !important;
+	font-size: 20px;
+}
+
+.missions .pink{
+	color: var(--pink);
+}
+
+.missions .green{
+	color: var(--green);
 }
 
 /***** Contact *****/
