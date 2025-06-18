@@ -52,7 +52,7 @@
         margin: 0 auto;
     }
 
-    .banner .container:after{
+    .home.banner .container:after{
         content: "";
         position: absolute;
         bottom: 0;
