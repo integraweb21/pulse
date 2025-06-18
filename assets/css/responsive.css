@@ -76,7 +76,7 @@
         display: none;
     }
 
-    .price{
+    .banner .price{
         position: inherit;
         transform: inherit;
     }
@@ -126,6 +126,13 @@
 
     #offcanvasNavbar{
         width: 100%;
+    }
+
+    /* Footer */
+
+    footer nav ul{
+        display: inherit;
+        text-align: center;
     }
 
 }
