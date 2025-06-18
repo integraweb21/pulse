@@ -43,13 +43,17 @@ h2 .green, h3 .green{
 }
 
 h2{
-	font-size: 48;
+	font-size: 48px;
 	font-weight: 700;
 }
 
 h3{
 	font-size: 16px;
 	font-weight: 600;
+}
+
+.subtitle{
+	font-size: 20px;
 }
 
 .desert{
@@ -265,10 +269,6 @@ nav ul{
 	height: 24px;
 }
 
-.offre .subtitle{
-	font-size: 20px;
-}
-
 .offre .card{
 	max-width: 600px;
 	margin: 0 auto;
@@ -347,6 +347,10 @@ nav ul{
 .application{
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+.application img{
+	width: 100%;
 }
 
 /***** Missions *****/
