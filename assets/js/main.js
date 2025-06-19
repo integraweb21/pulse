@@ -5,7 +5,7 @@ const arrowDown = document.getElementById('arrow-down');
 let currentIndex = 0;
 
 const icons = [
-    'assets/css/img/pictos/CDI.svg',
+    'assets/css/img/pictos/white/cdi-w.svg',
     'assets/css/img/pictos/security.svg',
     'assets/css/img/pictos/clipboard.svg',
     'assets/css/img/pictos/bookmarks.svg',

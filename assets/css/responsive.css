@@ -77,8 +77,8 @@
     }
 
     .banner .price{
-        position: inherit;
-        transform: inherit;
+        position: inherit !important;
+        transform: inherit !important;
     }
 
 }
@@ -121,11 +121,27 @@
 @media (max-width: 768px) {
 
     h1{
+        font-size: 40px;
+    }
+
+    h2{
         font-size: 38px;
+    }
+
+    .subtitle{
+        font-size: 18px;
     }
 
     #offcanvasNavbar{
         width: 100%;
+    }
+
+    .application .row{
+        gap: 50px;
+    }
+
+    .missions{
+        padding-bottom: 10px;
     }
 
     /* Footer */
