@@ -70,7 +70,7 @@ h3{
 }
 
 .desert{
-	background-color: var(--desert);
+	background-color: var(--desert) !important;
 }
 
 .card{
@@ -79,11 +79,12 @@ h3{
 	border-radius: 24px;
 }
 
+.card .img img{
+	height: 64px;
+}
+
 .card ul li{
-	display: flex;
-	align-items: center;
-	gap: 10px;
-	margin-bottom: 12px;
+	margin-bottom: 10px;
 }
 
 .title-card{
@@ -463,9 +464,11 @@ nav ul{
 
 .missions .card ul.check-pink li::before, .missions .card ul.check-green li::before{
 	content: "";
-	display: block;
+	display: inline-block;
 	width: 26px;
 	height: 26px;
+	position: relative;
+    top: 7px;
 }
 
 .missions .card ul.check-pink li::before{
@@ -473,7 +476,6 @@ nav ul{
 }
 
 .missions .card ul.check-green li::before{
-	display: block;
 	background-image: url('img/pictos/check-circle-green.svg');
 }
 
