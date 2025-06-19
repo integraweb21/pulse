@@ -504,6 +504,66 @@ nav ul{
 	color: var(--green);
 }
 
+/***** Actualités *****/
+
+.actualites{
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.actualites .nav-tabs{
+	border-bottom: 1px solid var(--black);
+	padding-bottom: 15px;
+	margin-bottom: 30px;
+	--bs-nav-tabs-border-width: none;
+}
+
+.actualites .nav-link{
+	color: var(--black);
+}
+
+.actualites .nav-link.active, .actualites .nav-link:hover{
+	border: none;
+	color: var(--pink);
+}
+
+.actualites .nav-link.active{
+	background: transparent;
+}
+
+.actualites h2{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 32px;
+}
+
+.actualites h2 img{
+	width: 32px;
+}
+
+article{
+	background-color: var(--white);
+	border-radius: 24px;
+	padding: 25px;
+}
+
+article img{
+	width: 100%;
+}
+
+article h3{
+	font-size: 20px;
+}
+
+article .date{
+	font-size: 14px;
+}
+
+article p{
+	margin-bottom: 0px;
+}
+
 /***** Contact *****/
 
 .contact{
