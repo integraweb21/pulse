@@ -132,6 +132,10 @@
         font-size: 18px;
     }
 
+    .box{
+        flex-direction: column;
+    }
+
     #offcanvasNavbar{
         width: 100%;
     }

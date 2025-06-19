@@ -356,10 +356,13 @@ nav ul{
 
 .offre .card ul li::before{
 	content: "";
-	display: block;
+	display: inline-block;
 	background-image: url('img/pictos/check.svg');
 	width: 24px;
 	height: 24px;
+	position: relative;
+    top: 6px;
+    margin-right: 7px;
 }
 
 .offre .card{
